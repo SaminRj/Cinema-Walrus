@@ -91,7 +91,7 @@ body *::selection {
     padding: 10px 14px;
     margin-right: 3px;
     transition: 0.3s;
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(120deg,rgba(27, 18, 107, 0.37), rgba(16, 1, 29, 0));
     border-radius: 12px;
     color: beige;
 }
@@ -123,7 +123,7 @@ transition: 0.2s;
 
 .parent-input input{
 border: 1px solid #ffffff;
-background-color: #000000;
+background: linear-gradient(120deg,rgba(27, 18, 107, 0.37), rgba(16, 1, 29, 0));
 }
 
 .parent-input input:hover {
