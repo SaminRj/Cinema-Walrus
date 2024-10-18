@@ -1,0 +1,513 @@
+/* Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Protest Strike */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+/* Antic */
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+/* Bree Serif */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bungee+Tint&display=swap');
+/* Baskervville SC */
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Cinzel:wght@400..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+margin: 0;
+padding: 0;
+}
+.back{
+    background-color: #000000;
+    font-family: serif ;
+}
+.hhd{
+    /* background: linear-gradient(120deg,rgb(77, 1, 177) ,rgba(37, 25, 199, 0.37), rgb(70, 12, 117));  */
+    background-color: rgba(10, 10, 10, 0.315);
+}
+/* Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Protest Strike */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+/* Antic */
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+
+
+/* .navbar {
+    background: linear-gradient(120deg,rgba(27, 18, 107, 0.37), rgba(16, 1, 29, 0));
+
+} */
+.mynavbar{
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background: linear-gradient(black,rgba(0, 0, 0, 0));
+    z-index: 11;
+    position: absolute !important;
+    top: 0 !important;
+    height: 5rem;
+    width: 100%;
+    /* padding-top: 3rem;
+    padding-bottom: 40rem; */
+}
+.mynavbar li * {
+    color: beige;
+}
+.mynavbar li *:hover , .mynavbar li *::selection {
+    color: #ff6500;
+    background-color: rgba(0, 0, 0, 0);
+}
+.namecin , .namecin:hover{
+    color: #FF6500 !important;
+    font-family: "Bebas Neue" , serif !important;
+    font-size: 2.5rem !important;
+    font-weight: 400;
+}
+.genermenu {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.genermenu li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.blackbg {
+    position: absolute;
+    /* top: 5rem; */
+    /* height: 42.45rem; */
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5%;
+}
+.blackbg h2 {
+    color: #FF6500;
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Protest Strike" , serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.blackbg span {
+    color: beige;
+    font-size: 1.3rem;
+    font-family: "Antic" , serif;
+}
+.othergener a{
+    color: rgba(245, 245, 220, 0.616);
+    text-decoration: none;
+    z-index: 12;
+
+}
+.othergeners {
+    margin-top: 2.1rem;
+}
+.blackbgbot {
+    position: absolute;
+    bottom: 0;
+    height: 9rem;
+    width: 100%;
+    z-index: 10;
+    background: linear-gradient(rgba(0,0,0,0), black);
+}
+
+
+@media (max-width:900px) {
+    .blackbg h2 {
+        color: #FF6500;
+        font-size: 2.5rem;
+        text-align: center;
+        font-family: "Protest Strike" , serif;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .blackbg span {
+        color: beige;
+        font-size: 1.15rem;
+        font-family: "Antic" , serif;
+    }
+}
+@media (max-width:700px) {
+    .blackbg h2 {
+        color: #FF6500;
+        font-size: 2rem;
+        text-align: center;
+        font-family: "Protest Strike" , serif;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .blackbg span {
+        color: beige;
+        font-size: 1.09rem;
+        font-family: "Antic" , serif;
+    }
+    .namecin , .namecin:hover{
+        color: #FF6500;
+        font-family: "Bebas Neue" , serif;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+}
+@media (max-width:500px) {
+    .blackbg h2 {
+        color: #FF6500;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: "Protest Strike" , serif;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .blackbg span {
+        color: beige;
+        font-size: 1rem;
+        font-family: "Antic" , serif;
+    }
+    .namecin , .namecin:hover{
+        color: #FF6500;
+        font-family: "Bebas Neue" , serif;
+        font-size: 1.75rem;
+        font-weight: 400;
+    }
+}
+#bag{
+    width: 200px;
+     height: 200px
+}
+#koh{
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: #0B192C;
+}
+#OR{
+  background-color: #FF6500 !important;
+}
+
+#bagg{
+    width: 600px;
+    height: 280px;
+}
+#button{
+    background-color: aqua;
+ 
+}
+#baggg{
+height: 600px;
+}
+#vd{
+    padding:0 ;
+}
+max{
+    max-width: 300px;
+}
+.aq{
+    color: #FF6500 !important;
+}
+.rounded-circle{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.fat{
+    width: 60px;
+    height: 60px;
+
+}
+.tma{
+    /* color:#7d92b5 !important; */
+    color: #8091ab;
+}
+.vaw{
+    background-color: #0B192C;
+}
+.wav{
+    background-color: #1E3E62;
+}
+.white{
+    color: wheat;
+}
+.abi{
+    color:#ff6500;
+}
+.abb{
+    counter-reset: #0B192C;
+}
+.ro{
+    color: #b3d0ff;
+}
+.but{
+    background-color: #DB2100 !important;
+    width: 150px;
+    height: 55px;
+    border-radius: 15px;
+    margin-left: 30PX;
+    color: wheat;
+}
+.add{
+    font-weight: 20px;
+}
+/* f00t */
+/* Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Protest Strike */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+/* Antic */
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+
+
+body {
+    background-color: #000000;
+    font-family: serif;
+}
+
+body *::selection {
+    background-color: #4b2c2c;
+}
+
+
+.div-parent {
+    width: 260px;
+    height: 380px;
+    background: linear-gradient(120deg,rgb(77, 1, 177) ,rgba(37, 25, 199, 0.37), rgb(70, 12, 117));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: center; */
+    border-radius: 15px;
+}
+
+.child1 {
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    height: 240px;
+    background-color: aqua;
+    border-radius: 17px;
+}
+.child1 img {
+    border-radius: 15px;
+}
+
+.child2 {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 230px;
+    height: 110px;
+    background-color: rgba(255, 255, 255, 0);
+    line-height: 0.5mm;
+}
+
+.child2 p {
+    color: white;
+}
+
+.child2 h3 {
+    color: #FF6500;
+}
+
+.para-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.row.con {
+    display: flex;
+    gap: 50px;
+}
+
+
+.para3 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.parent-para {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-left: 50px; */
+    
+}
+
+
+.icone a {
+    border: 1px rgb(182, 182, 182) solid;
+    padding: 10px 14px;
+    margin-right: 3px;
+    transition: 0.3s;
+    background: linear-gradient(120deg,rgba(27, 18, 107, 0.37), rgba(16, 1, 29, 0));
+    border-radius: 12px;
+    color: beige;
+}
+
+.icone svg{
+color: white;
+transition: 0.2s;
+}
+.icone svg:hover{
+    color: #FF6500;
+}
+
+.icone a:hover {
+   color: #FF6500;
+   border: 1px solid #FF6500;
+}
+
+.parent-links a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+
+.parent-links a:hover {
+    transform-origin: left;
+    transform: scalex(1.05);
+}
+
+.parent-input input{
+border: 1px solid #ffffff;
+background: linear-gradient(120deg,rgba(27, 18, 107, 0.37), rgba(16, 1, 29, 0));
+}
+
+.parent-input input:hover {
+    border: 1px solid #FF6500;
+}
+/* 
+footer {
+    background: linear-gradient(120deg,rgba(27, 18, 107, 0.37), rgba(16, 1, 29, 0));
+} */
+
+/* .footer2 {
+border: 1px solid white;
+} */
+footer{
+    background: linear-gradient(120deg,rgba(27, 18, 107, 0.37), rgba(16, 1, 29, 0));
+    font-family: serif;
+}
+.orang {
+    color: #FF6500;
+}
+
+.parent-links svg {
+    color: rgb(255, 255, 255) !important;
+}
+
+/* .icone-tel svg {
+    color: white;
+} */
+
+.button-input {
+    background-color: #ff6500;
+    color: #000000;
+    border: 1px solid black;
+}
+
+.button-input:hover {
+color: #FF6500;
+background-color: #000000;
+/* border: white; */
+}
+
+/* خش2 */
+.bla{
+    color: #000000;
+
+}
+.vv{
+    background-color: #000000 !important;
+}
+/* بخش3 */
+/* Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Baskervville SC */
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Cinzel:wght@400..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.Collections {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Collections h2 {
+    padding-top: 2rem;
+    color: #FF6500;
+    font-family: "Bebas Neue" , serif;
+}
+.collec {
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+    gap:0.5px !important;
+}
+.caddd {
+    width: 10rem !important;
+    transition: 1s;
+    border-radius: 5px;
+    background-color: #0B192C;
+    padding: 0 !important;
+    /* border-color: #000000; */
+}
+.caddd>div {
+    padding: 0;
+    background-color: #0B192C;
+    border-radius: 5px;
+    width: 100%;
+}
+.caddd:hover {
+    transform: scale(1.09);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.caddd h5 {
+    font-family: "Baskervville SC" , serif;
+    color: #98b7da;
+    text-align: center;
+    font-size: 2.3rem;
+    text-shadow: 5px 5px 10px #000000;
+}
+.caddd p {
+    color: #84909e;
+}
+.caddd a {
+    text-decoration: none;
+    color: #aa5b26;
+}
+.spsp1 {
+    text-align: center;
+    transition: 1s;
+    background-color: #0B192C;
+}
+.spsp2 {
+    display: none;
+    /* position: static; */
+    text-align: center;
+    /* transition-duration: 1s; */
+    transition: 1s;
+    /* transition-property: display; */
+    padding-top: 1rem;
+}
+.caddd:hover .spsp2 {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    background-color: #0B192C;
+    /* background: linear-gradient(rgba(0, 0, 0, 0), #0B192C ,#0B192C ,#0B192C ,#0B192C ,#0B192C ,#0B192C); */
+    width: 100%;
+    text-align: center;
+}
+.card-img-top{
+    width: 200px;
+    height: 200px;
+}
+/* بخش33 */
+.bc{
+    background-color: #000000 !important;
+}
